@@ -29,7 +29,7 @@
 
 - 内核入口增加串口日志输出并保留 VGA 输出确认：
   - [kernel/kernel.c](kernel/kernel.c)
-- `README` 改为中文并补全 WSL（Ubuntu-24.04）开发/调试流程：
+- `README` 改为中文并补全 WSL 开发/调试流程：
   - [README.md](README.md)
 - `Makefile` 补充 freestanding 内核构建参数，显式禁用 PIE（`-fno-pie` / `-no-pie`）以适配系统 GCC 回退路径。
 
@@ -59,4 +59,4 @@
 
 ### Verified
 
-- 在 Windows + WSL（Ubuntu-24.04）环境完成 `make all / make iso / make run` 基本验证。
+- 在 Windows + WSL 环境完成 `make all / make iso / make run` 基本验证。
