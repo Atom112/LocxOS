@@ -1,3 +1,7 @@
+<p align="center">
+	<img src="LocxOS.svg" alt="LocxOS Logo" width="220" />
+</p>
+
 # LocxOS x86_64 操作系统内核
 
 LocxOS 是一个用于学习操作系统底层的实验项目，技术栈为 C 语言 + 少量汇编。

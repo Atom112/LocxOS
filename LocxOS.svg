@@ -1,0 +1,43 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- 定义渐变与阴影（增强静态质感） -->
+  <defs>
+    <linearGradient id="lakeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#005f73;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a9396;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- 外部圆环背景（象征内核的整体性） -->
+  <circle cx="100" cy="100" r="90" fill="#f8f9fa" />
+  <circle cx="100" cy="100" r="85" fill="url(#lakeGradient)" />
+
+  <!-- 核心逻辑符号：L 与 X 的结合 -->
+  <!-- 白色粗线条构成 L 框架 -->
+  <path d="M65 60 V140 H135" 
+        stroke="white" 
+        stroke-width="14" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none" />
+
+  <!-- 交叉的 X 线条，代表系统交互与核心连接 -->
+  <path d="M115 105 L155 145 M155 105 L115 145" 
+        stroke="#94d2bd" 
+        stroke-width="12" 
+        stroke-linecap="round" 
+        fill="none" />
+
+  <!-- 底部简洁的三道波纹，强化 Loch（大湖）意象 -->
+  <path d="M70 165 Q100 158 130 165" 
+        stroke="white" 
+        stroke-width="5" 
+        fill="none" 
+        opacity="0.4" 
+        stroke-linecap="round" />
+  <path d="M85 178 Q100 173 115 178" 
+        stroke="white" 
+        stroke-width="3" 
+        fill="none" 
+        opacity="0.3" 
+        stroke-linecap="round" />
+</svg>
